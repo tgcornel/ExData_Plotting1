@@ -1,6 +1,6 @@
 # Divide into 4 subplots and reduce text size slightly
 par(mfcol=c(2,2))
-par(cex=0.7)
+par(cex=0.75)
 
 # Read the data
 hh<-read.table("household_power_consumption.txt",sep=";",header=TRUE,na.strings=c("?"))
